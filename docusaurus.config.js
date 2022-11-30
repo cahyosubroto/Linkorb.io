@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Linkorb.io',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'LinkORB API Documentation',
   url: 'https://cahyosubroto.github.io',
   baseUrl: '/Linkorb.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://i.ibb.co/cFxq045/Asset-32.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -61,22 +61,17 @@ const config = {
         title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'https://www.linkorb.com/wp-content/uploads/2018/04/linkorb-logo.png',
+          src: 'https://drive.google.com/uc?export=view&id=161Tu-xSeWcE-5obr824PeuzI_INYt9Od',
           
         },
         items: [
           {
             type: 'doc',
-            docId: 'API/formlist',
+            docId: 'formlist',
             position: 'left',
-            label: 'API',
+            label: 'API Reference',
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -86,13 +81,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'API documentation',
-                to: '/docs/API/formlist',
+                label: 'API Reference',
+                to: '/docs/formlist',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -3,18 +3,22 @@ id: formlist
 sidebar_label: GET - Form List
 title: Form List
 hide_title: true
-pagination_next: null
-pagination_prev: null
 custom_edit_url: null
-sidebar_position: 0
+sidebar_position: 1
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import './custom.css';
 
 # GET - Form List
 
-Generate the Form List.
+<span className="background-orange">GET</span>/base_url/forms
+
 ___
 
 Get a list of Form that is associated with the **Basic_Auth** token. This API returns every form along with the **Form Id**, **name**, and **label**.
+
 ## Header Parameters
 | Parameter | Type | Description |
 |:--------------:|:------:|-------|
@@ -29,8 +33,10 @@ Get a list of Form that is associated with the **Basic_Auth** token. This API re
 
 ## Sample Object
 An example object returned by the `Form List` endpoint is shown below:
+<Tabs>
+<TabItem value="js" label="200-Ok">
 
-```javascript title="200 - Ok"
+```js
 [
     {
         "xuid": "RraJNpWlQyKUY-YRLtvSOA",
@@ -44,3 +50,19 @@ An example object returned by the `Form List` endpoint is shown below:
     }
 ]
 ```
+
+</TabItem>
+<TabItem value="py" label="401-Unauthenticated">
+
+```js
+
+```
+
+</TabItem>
+<TabItem value="java" label="404-Not Found">
+
+```js
+
+```
+</TabItem>
+</Tabs>
