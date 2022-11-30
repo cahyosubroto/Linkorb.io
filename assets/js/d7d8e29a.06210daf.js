@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklinkorb=self.webpackChunklinkorb||[]).push([[145],{4969:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/Linkorb.io/blog/tags/hello","allTagsPath":"/Linkorb.io/blog/tags","count":2}')}}]);
