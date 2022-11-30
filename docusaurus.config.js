@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/cahyosubroto/Linkorb.io',
         },
         blog: {
           showReadingTime: true,
@@ -62,6 +62,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'https://www.linkorb.com/wp-content/uploads/2018/04/linkorb-logo.png',
+          
         },
         items: [
           {
