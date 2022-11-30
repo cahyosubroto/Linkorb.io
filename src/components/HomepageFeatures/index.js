@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'LinkORB',
     Svg: require('@site/static/img/desc.svg').default,
     description: (
       <>

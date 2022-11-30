@@ -86,6 +86,19 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Facebook',
+                href: 'http://facebook.com/linkorb',
+              },
+              {
+                label: 'Twitter',
+                href: 'http://twitter.com/linkorb',
+              },
+            ],
+          },
         ],
       },
       prism: {
