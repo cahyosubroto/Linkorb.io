@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Linkorb.io',
-  tagline: 'LinkORB API Documentation',
+  tagline: '🎊 Welcome to the Linkorb API documentation.',
   url: 'https://cahyosubroto.github.io',
   baseUrl: '/Linkorb.io/',
   onBrokenLinks: 'throw',
