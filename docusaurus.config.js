@@ -9,7 +9,7 @@ const config = {
   title: 'Linkorb.io',
   tagline: 'Dinosaurs are cool',
   url: 'https://cahyosubroto.github.io',
-  baseUrl: '/Linkorb.io/API/',
+  baseUrl: '/Linkorb.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
