@@ -9,7 +9,7 @@ const config = {
   title: 'Linkorb.io',
   tagline: '🎊 Welcome to the Linkorb API documentation.',
   url: 'https://cahyosubroto.github.io',
-  baseUrl: '/Linkorb.io/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'https://i.ibb.co/cFxq045/Asset-32.png',
